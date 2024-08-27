@@ -1,0 +1,214 @@
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background-size: cover;
+}
+
+.login-container {
+    background-color: #fff;
+    border-radius: 0 0 8px 8px;
+    border-top: 1px solid #dadde1;
+    box-sizing: border-box;
+    padding: 5px 0 0;
+    position: relative;
+    width: 475px;
+    margin-left: 35%;
+    border-radius: 10px;
+    /* zoom: 1; */
+
+}
+
+.fb_logo {
+    border: 0;
+    width: 302px;
+    height: 100px;
+    text-align: center;
+    margin:5px 520px 5px 520px;
+    font-weight: bold;
+    padding: 0;
+    display: block;
+
+}
+
+.login-container h2 {
+    width: 435px;
+    height: 32px;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    color: #1c1e21;
+    margin: 0;
+    padding: 2px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    font-weight: 600;
+    
+}
+.login-container p{
+    color: #606770;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+.username{
+    margin: 10px 4px 5px 10px;
+}
+
+.username input {
+    width: 41%;
+    margin-left: 5px;
+    border-radius: 4px;
+    border: 1px solid rgb(143, 127, 127);
+    padding: 11px;
+    font-size: 15px;
+}
+.email{
+    margin: 10px 4px 5px 15px;
+}
+
+.email input {
+    width: 91%;
+    /* margin: 5px 15px 5px 15px; */
+    border-radius: 4px;
+    border: 1px solid rgb(143, 127, 127);
+    padding: 11px;
+    font-size: 15px;
+}
+.pswd{
+    margin: 10px 4px 5px 15px;
+}
+
+.pswd input {
+    width: 91%;
+    /* margin: 5px 5px 5px 5px; */
+    border-radius: 4px;
+    border: 1px solid rgb(143, 127, 127);
+    padding: 11px;
+    font-size: 15px;
+}
+
+
+.birth-area {
+    color: #606770;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 20px;
+    font-size: 15px;
+    margin: 5px 0 4px 17px;
+
+}
+
+.birth-area img {
+    height: 12px;
+    width: 12px;
+    margin-bottom: none;
+    padding: 0;
+
+}
+.pd-birth{
+    margin: 5px 0 4px 15px;
+}
+
+.pd-birth select {
+    padding: 0px 20px 0px 10px;
+    height: 35px;
+    width: 142px;
+    border-radius: 4px;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.gender {
+    color: #606770;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 20px;
+    font-size: 15px;
+    margin: 5px 0 4px 17px;
+}
+
+.gender img {
+    height: 12px;
+    width: 12px;
+    margin-bottom: none;
+    padding: 0;
+}
+
+.gn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 95%;
+   margin: 5px 10px 5px 10px ;
+}
+
+.gn-opt {
+    border: 1px solid grey;
+    padding: 0px 28px 0px 10px;
+    height: 35px;
+    width: 22%;
+    border-radius: 4px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gn-opt label {
+    margin-left: 10px;
+}
+
+.gn-opt input {
+    margin-left: 52px;
+}
+.login-container .terms {
+    color: #777;
+    font-size: 12px;
+    margin: 11px 0 0 17px;
+    padding: 0;
+    width: auto;
+    text-align: left;
+
+
+}
+.login-container .terms a{
+    text-decoration: none;
+}
+
+.login-container .button {
+    background: none;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    padding: 0 32px;
+    text-shadow: none;
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    width: 194px;
+    margin: 15px 120px;
+
+}
+.login-container .acc {
+    color: #1877f2;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    margin:15px 120px ;
+
+}
